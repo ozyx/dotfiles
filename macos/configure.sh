@@ -16,3 +16,6 @@ chflags nohidden ~/Library
 
 # Set a really fast key repeat.
 defaults write NSGlobalDomain KeyRepeat -int 2
+
+# Save screencaps to ~/Pictures/Screenshots instead of Desktop
+defaults write com.apple.screencapture location ~/Pictures/Screenshots
