@@ -6,11 +6,16 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 # cli packages to install
-brew "cowsay"
-brew "fortune"
 brew "git"
 brew "node"
+
+# these are needed for "cowsay | fortune" ;)
+brew "cowsay"
+brew "fortune"
 
 # gui applications to install
 cask "spotify"
 cask "visual-studio-code"
+cask "steam"
+cask "discord"
+cask "virtualbox"
