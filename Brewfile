@@ -8,6 +8,7 @@ tap "homebrew/core"
 # cli packages to install
 brew "git"
 brew "node"
+brew "wget"
 
 # these are needed for "cowsay | fortune" ;)
 brew "cowsay"
