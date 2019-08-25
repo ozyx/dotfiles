@@ -22,3 +22,6 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Save screencaps to ~/Pictures/Screenshots instead of Desktop
 defaults write com.apple.screencapture location ~/Pictures/Screenshots
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
